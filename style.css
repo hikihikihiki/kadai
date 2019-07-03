@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+main {
+	width: 960px;
+	margin: 50px auto;
+}
+.zzz-box{
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+	padding: 10px;
+	position: relative;
+	border: 1px solid #eee;
+}
+.zzz-box:last-child{
+	margin-right: 0;
+}
+.zzz-img1 {
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+	height: 150px;
+}
+.zzz-img2 {
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+	height: 150px;
+}
+.zzz-img3 {
+	background-image:  url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+	height: 150px;
+}
+.zzz-num{
+	top: 0;
+	left: 0;
+	background-color: #FF9A4B;
+	color: #fff;
+	padding: 2px;
+	position: absolute;
+}
+.title{
+	margin: 10px 0 5px;
+}
+@media screen and (max-width:425px){
+	main {
+		width: 100%;
+		margin: 50px auto;
+	}
+	.zzz-box{
+		margin-bottom: 20px;
+		width: 90%;
+		float: none;
+		padding: 10px;
+	}
+}
