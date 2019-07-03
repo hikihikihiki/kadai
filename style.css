@@ -53,15 +53,24 @@ main {
 .title{
 	margin: 10px 0 5px;
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:768px){
 	main {
-		width: 100%;
+		width: 320px;
 		margin: 50px auto;
+		border:;
+
 	}
 	.zzz-box{
-		margin-bottom: 20px;
-		width: 90%;
+		margin: 20px auto;
+		width: 100%;
 		float: none;
 		padding: 10px;
 	}
-}
+	.all{
+		max-width: 900px;
+		margin: auto;
+	}
+	body{
+		margin: 0 auto;
+		width: 90%;
+	}}
